@@ -2,7 +2,7 @@
 
 @section('title', 'Pengelolaan Menu')
 
-@section('tambahan-style')
+@section('isi konten')
 <style>
     .filter-bar { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; align-items:center; }
     .filter-btn {

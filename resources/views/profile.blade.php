@@ -2,7 +2,7 @@
 
 @section('title', 'Profile')
 
-@section('tambahan-style')
+@section('isi konten')
 <style>
     .profile-hero {
         background: linear-gradient(135deg, #2C1A0E, #6B3F1F);

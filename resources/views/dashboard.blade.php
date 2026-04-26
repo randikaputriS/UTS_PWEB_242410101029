@@ -2,7 +2,7 @@
 
 @section('title', 'Dashboard')
 
-@section('tambahan-style')
+@section('isi konten')
 <style>
     .hero-box {
         background: linear-gradient(135deg, #2C1A0E, #6B3F1F);
@@ -82,7 +82,7 @@
 </style>
 @endsection
 
-@section('content')
+@section('content') {{-- konten utama halaman--}}
 
 @include('partials.page-header', ['pageTitle' => 'Dashboard', 'pageSubtitle' => "Selamat datang kembali di sistem pengelolaan Cafe's Kalcer"])
 
@@ -97,7 +97,7 @@
 </div>
 
 <div class="row g-3 mb-4">
-    @foreach($stats as $stat)
+    @foreach($stats as $stat) {{-- ngerender array yg di controller --}}
     <div class="col-6 col-lg-3">
         <div class="stat-box">
             <div class="ikon">{{ $stat['icon'] }}</div>

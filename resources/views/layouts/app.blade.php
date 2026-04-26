@@ -101,7 +101,7 @@
             border-radius: 12px 12px 0 0 !important;
         }
     </style>
-    @yield('tambahan-style')
+    @yield('isi konten')
 </head>
 <body>
 
